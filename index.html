@@ -1,0 +1,66 @@
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Funciones trigonométricas</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="funciones.js"></script>
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                    <h1>Funciones trigonométricas</h1>
+                    <p><strong>Intrucciones:</strong> Asegurese de ingresar el número correcto para cada función.</p>
+                    <div class="contenido">    
+                    <div class="row">
+                        <div class="col-lg-6">
+                        <label>Seno</label>
+                        <input type="number" oninput="seno(this.value)">                                                   
+                        </div>
+                        <div class="col-lg-6">
+                        <p class="resultado"></p>
+                        <p id="seno"></p>
+                        <p id="senoR"></p>
+                        </div>
+                        <div class="col-lg-6">
+                        <label>Coseno</label>
+                        <input type="number" oninput="coseno(this.value)">
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="resultado"></p>
+                                <p id="coseno"></p>
+                                <p id="cosenoR"></p>
+                            </div>
+                        <div class="col-lg-6">
+                        <label>Tangente</label>
+                        <input type="number" oninput="tangente(this.value)">     
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="resultado"></p>
+                                <p id="tangente"></p>
+                                <p id="tangenteR"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>    
+</html>
